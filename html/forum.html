@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleForum.css">
+    <title>Forum</title>
+</head>
+<body>
+
+    <script src="../js/forumvalidation.js"></script>
+        <div class="header">
+            <div class="logo">
+                <img src="../assets/smartpark logo.PNG" alt="" width="480px" height="86px">
+            </div>
+        </div>
+     
+        <div class="navigation">
+            <div class="home">
+                <a href="../index.html">Home</a>
+            </div>
+     
+            <div class="registrasi">
+                <a href="registrasi.html">Registrasi</a>
+            </div>
+     
+            <div class="login">
+                <a href="login.html">Login</a>
+            </div>
+     
+            <div class="feedback">
+                 <a href="feedback.html">Feedback</a>
+            </div>
+     
+            <div class="rating">
+                <a href="rating.html">Rating</a>
+            </div>
+     
+            <div class="forum">
+                <a href="forum.html">Forum</a>
+            </div>
+        </div>
+     
+            <div class="content">
+                <br>
+                <div class="title">
+                    Forum
+                </div>
+
+                    <div class="form">
+                        <form name="ForumForm" method="POST" action="foruminput.php" onsubmit= "return validation()" 
+                          onload="document.ForumForm.nama.focus()">
+                            <br><br><br>
+                          <div class="name">
+                              <input type="text" class="text" name="nama" id="nama" placeholder="Nama Lengkap">
+                          </div>
+                          <p><p><br>
+                          <div class="Pesan">
+                              <textarea name="forum" id="forum" placeholder="Tulis forum..."></textarea>
+                          </div>
+                          <br><br><br><br>
+                            <input class = "button" type="button" value="Post"  onclick="validation()">
+                        </form>
+                    </div>
+                    
+                    <div class="thread" id="thread" hidden
+                        style="
+                                box-sizing: border-box;
+                                background: transparent;
+                                border:2px solid #84a8c4;
+                                width:600px;
+                                height:220px;
+                                margin-left: 380px;
+                                border-radius: 10px;
+                                ">
+                        <div class="titlethread" 
+                            style="color: antiquewhite;
+                                            float: left;
+                                            margin-left: 10px;
+                                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                            font-weight: bold;
+                                            font-size: 20px;
+                                            padding-top: 10px;
+                                            padding-left: 10px; "> 
+                            THREAD
+                        </div>
+                        <br>
+                        <div class="contentthread"
+                                    style="text-align:justify;
+                                            margin-left: 10px;
+                                            color: grey;
+                                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                            padding-top: 10px;
+                                            padding-left: 10px;
+                                            padding-right: 20px;">
+
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio in perspiciatis alias 
+                                praesentium quisquam excepturi saepe non magni repudiandae numquam asperiores
+                                 explicabo sint ut dolorem, amet quas deleniti beatae ea. <br><br>
+                                  <i>By : Raquell Murillo</i> </p>
+                            <input value="Reply" type="button" class="reply" onclick="addReply() " 
+                            style=" background: #007787;
+                                    border-color: transparent;
+                                    letter-spacing: 2px;
+                                    margin-left: 400px;
+                                    font-weight: bold;
+                                    color: antiquewhite;
+                                    width: 150px;
+                                    height: 35px;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                    font-size: 16px;
+                                    border-radius: 5px;
+                                    cursor: pointer;"
+                            
+                            >
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="replythread" id="reply" hidden>
+                        <textarea name="reply"  placeholder="Reply disini..."></textarea> 
+                        <br><br><p></p>
+                        <input value="Post" type="button" class="post" id="reply" onclick="postReply()"
+                            style= "background: #007787;
+                            border-color: transparent;
+                            letter-spacing: 2px;
+                            margin-left: 430px;
+                            font-weight: bold;
+                            color: antiquewhite;
+                            width: 150px;
+                            height: 35px;
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-size: 16px;
+                            border-radius: 5px;
+                            cursor: pointer;">
+                    </div>
+            
+            </div>
+         
+            <div class="footer" style="margin-top: 50px;">
+                    <div class="logofooter">
+                        <img src="../assets/smartpark logo yellow.png" alt="">
+                    </div>
+                    <div class="textfooter">
+                          COPYRIGHT &copy;2020 SMART PARK - ALL RIGHT RESERVED
+            </div>
+        
+
+   
+</body>
+</html>

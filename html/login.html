@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleLogin.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <script src="../js/loginvalidation.js"></script>
+
+        <div class="header">
+            <div class="logo">
+                <img src="../assets/smartpark logo.PNG" alt="" width="480px" height="86px">
+            </div>
+        </div>
+     
+        <div class="navigation">
+            <div class="home">
+                <a href="../index.html">Home</a>
+            </div>
+     
+            <div class="registrasi">
+                <a href="registrasi.html">Registrasi</a>
+            </div>
+     
+            <div class="login">
+                <a href="login.html">Login</a>
+            </div>
+     
+            <div class="feedback">
+                 <a href="feedback.html">Feedback</a>
+            </div>
+     
+            <div class="rating">
+                <a href="rating.html">Rating</a>
+            </div>
+     
+            <div class="forum">
+                <a href="forum.html">Forum</a>
+            </div>
+        </div>
+     
+            <div class="content">
+                <br>
+                <div class="title">
+                    Login to your account
+                </div>
+            
+                <div class="contentflex">
+                    <div class="img1">
+                        <img src="../assets/regis parking.PNG" alt="">
+                    </div>
+
+                    <div class="form">
+                        <form name="LoginForm" method="POST" action="logininput.php" onsubmit= "return validation()" 
+                          onload="document.LoginForm.nama.focus()">
+                            <br><br><br><br>
+                          <div class="username">
+                              <input type="text" class="text" name="username" id="username" placeholder="Username">
+                          </div>
+                          <p><p><br>
+                          <div class="password">
+                              <input type="password" class="text" name="password" id="password" placeholder="Password">
+                          </div>
+                          <br><br><br><br><p></p>
+                            <input class = "button" type="button" value="Login" onclick="validation()">
+                        </form>
+                        <br>
+                        <div class="linkpages">
+                            <div class="register">
+                                <a href="registrasi.html" style="text-decoration: none;"> Belum memiliki akun ? <b>Register</b> &raquo; </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="img2">
+                        <img src="../assets/regis parking.PNG" alt="">
+                    </div>
+                </div>
+                    
+                
+            </div>
+         
+            <div class="footer">
+                    <div class="logofooter">
+                        <img src="../assets/smartpark logo yellow.png" alt="">
+                    </div>
+                    <div class="textfooter">
+                          COPYRIGHT &copy;2020 SMART PARK - ALL RIGHT RESERVED
+            </div>
+        >
+</body>
+</html>

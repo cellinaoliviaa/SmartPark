@@ -1,0 +1,179 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #203162 ;
+    text-align: center;
+}
+
+.header
+{
+    width: 100%;
+    height: 110px;
+    position: sticky;
+    background-color: #19264b;
+}
+
+.logo
+{   
+    padding-top: 10px;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffcc06;
+    padding : 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.home a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19264b;
+}
+
+.registrasi a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19264b;
+}
+
+.login a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19264b;
+}
+
+.feedback a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19264b;
+}
+
+.rating a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19264b;
+}
+
+.forum a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #19264b;
+}
+
+.content
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.form
+{
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    margin-left: 380px;
+    color: antiquewhite;
+}
+
+.text 
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: transparent;
+    width: 600px;
+    height: 30px;
+    color: antiquewhite;
+    border: none;
+    outline: none;
+    border-bottom : 1px solid #ffcc06;
+    font-size: 14px;
+} 
+
+textarea
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: transparent;
+    width: 600px;
+    height: 60px;
+    color: antiquewhite;
+    border: none;
+    outline: none;
+    border-bottom : 1px solid #ffcc06;
+    font-size: 14px;
+}
+
+.button
+{
+    background: #007787;
+    border-color: transparent;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: antiquewhite;
+    width: 600px;
+    height: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.thread
+{
+    color: antiquewhite;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #ffcc06; 
+    position: absolute;
+
+}
+
+.logofooter img
+{
+    margin-top: 15px;
+    width : 285px;
+    height : 56px;
+}
+
+.textfooter
+{
+    color: #19264b; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+    margin-top: 30px;
+}
